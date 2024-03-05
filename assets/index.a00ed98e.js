@@ -11010,14 +11010,14 @@ const _sfc_main$t = defineComponent({
             default: withCtx(() => [
               unref(device) === "mobile" ? (openBlock(), createElementBlock("img", {
                 key: 0,
-                src: `./${_ctx.report.artifactUrl}/screenshot.jpeg`,
+                src: `.${_ctx.report.artifactUrl}/screenshot.jpeg`,
                 loading: "lazy",
                 height: "112",
                 width: "68",
                 class: "w-68px h-112px"
               }, null, 8, _hoisted_2$x)) : (openBlock(), createElementBlock("img", {
                 key: 1,
-                src: `./${_ctx.report.artifactUrl}/screenshot.jpeg`,
+                src: `.${_ctx.report.artifactUrl}/screenshot.jpeg`,
                 loading: "lazy",
                 height: "82",
                 width: "112",
@@ -11066,7 +11066,7 @@ const _sfc_main$t = defineComponent({
           to: "#modal-portal"
         }, [
           createBaseVNode("img", {
-            src: `./${_ctx.report.artifactUrl}/full-screenshot.jpeg`,
+            src: `.${_ctx.report.artifactUrl}/full-screenshot.jpeg`,
             alt: "full screenshot",
             class: "mx-auto"
           }, null, 8, _hoisted_11$3)
@@ -12319,7 +12319,7 @@ const _sfc_main$f = defineComponent({
           height: img.naturalHeight
         };
       };
-      img.src = `./${props2.report.artifactUrl}/full-screenshot.jpeg`;
+      img.src = `.${props2.report.artifactUrl}/full-screenshot.jpeg`;
     });
     const styles = computed(() => {
       if (!screenshot.value)
@@ -12346,7 +12346,7 @@ const _sfc_main$f = defineComponent({
         backgroundPositionY: `${-(positions.screenshot.top * zoomFactor)}px`,
         backgroundPositionX: `${-(positions.screenshot.left * zoomFactor)}px`,
         backgroundSize: `${screenshot.value.width * zoomFactor}px ${screenshot.value.height * zoomFactor}px`,
-        backgroundImage: `url('./${props2.report.artifactUrl}/full-screenshot.jpeg')`
+        backgroundImage: `url('.${props2.report.artifactUrl}/full-screenshot.jpeg')`
       };
       const marker = {
         width: `${elementRectSC.width * zoomFactor}px`,
@@ -13947,7 +13947,7 @@ function openDebugModal() {
   isDebugModalOpen.value = true;
 }
 function openLighthouseReportIframeModal(report, tab) {
-  const path = `${report.artifactUrl}/lighthouse.html`;
+  const path = `.${report.artifactUrl}/lighthouse.html`;
   iframeModalUrl.value = `${path}${tab ? `#${tab}` : ""}`;
   isDebugModalOpen.value = false;
   isModalOpen.value = true;
