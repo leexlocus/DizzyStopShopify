@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/",
+    "score": 0.87,
+    "performance": 0.73,
+    "accessibility": 0.92,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/pages/retailers",
+    "score": 0.81,
+    "performance": 0.53,
+    "accessibility": 0.92,
+    "best-practices": 0.83,
+    "seo": 0.94
+  },
+  {
+    "path": "/pages/testimonials",
+    "score": 0.78,
+    "performance": 0.36,
+    "accessibility": 0.95,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/products/dizzystop",
+    "score": 0.86,
+    "performance": 0.74,
+    "accessibility": 0.95,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/products/nauseastop",
+    "score": 0.87,
+    "performance": 0.81,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.86
+  }
+]
