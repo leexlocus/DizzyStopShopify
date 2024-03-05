@@ -11010,14 +11010,14 @@ const _sfc_main$t = defineComponent({
             default: withCtx(() => [
               unref(device) === "mobile" ? (openBlock(), createElementBlock("img", {
                 key: 0,
-                src: `${_ctx.report.artifactUrl}/screenshot.jpeg`,
+                src: `./${_ctx.report.artifactUrl}/screenshot.jpeg`,
                 loading: "lazy",
                 height: "112",
                 width: "68",
                 class: "w-68px h-112px"
               }, null, 8, _hoisted_2$x)) : (openBlock(), createElementBlock("img", {
                 key: 1,
-                src: `${_ctx.report.artifactUrl}/screenshot.jpeg`,
+                src: `./${_ctx.report.artifactUrl}/screenshot.jpeg`,
                 loading: "lazy",
                 height: "82",
                 width: "112",
